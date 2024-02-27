@@ -41,6 +41,7 @@ header {
 
 .menu li a {
     text-decoration: none;
+    color: rgb(68, 2, 129);
 }
 
 .menu li:hover {
@@ -127,6 +128,8 @@ header {
 
     .facade {
         max-width: 100%;
+        height: auto;
+        width: auto;
     }
     
     .about {
@@ -193,7 +196,9 @@ header {
     }
 
     #products ul {
-        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
     }
 
     #products button {
@@ -212,4 +217,5 @@ header {
 
     .menu > li {
         font-size: 0.8em;
+    }
 }
