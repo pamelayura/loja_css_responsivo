@@ -115,8 +115,6 @@ header {
     background-color:  rgb(201, 191, 211);    
 }
 
-
-
 @media screen and (max-width: 767px) {
     .conteudo {
         display: block;
